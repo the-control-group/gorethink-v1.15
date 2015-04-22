@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	p "github.com/dancannon/gorethink/ql2"
+	p "github.com/the-control-group/gorethink-v1.15/ql2"
 )
 
 type Query struct {

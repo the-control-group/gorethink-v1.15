@@ -5,7 +5,7 @@ import (
 	"log"
 	"os"
 
-	r "github.com/dancannon/gorethink"
+	r "github.com/the-control-group/gorethink-v1.15"
 )
 
 var session *r.Session

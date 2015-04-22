@@ -1,7 +1,7 @@
 package gorethink
 
 import (
-	"github.com/dancannon/gorethink/types"
+	"github.com/the-control-group/gorethink-v1.15/types"
 
 	test "gopkg.in/check.v1"
 )

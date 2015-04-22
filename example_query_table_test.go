@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	r "github.com/dancannon/gorethink"
+	r "github.com/the-control-group/gorethink-v1.15"
 )
 
 func Example_TableCreate() {

@@ -1,7 +1,7 @@
 # GoRethink - RethinkDB Driver for Go 
 
 [![GitHub tag](https://img.shields.io/github/tag/dancannon/gorethink.svg?style=flat)]()
-[![GoDoc](https://godoc.org/github.com/dancannon/gorethink?status.png)](https://godoc.org/github.com/dancannon/gorethink)
+[![GoDoc](https://godoc.org/github.com/the-control-group/gorethink-v1.15?status.png)](https://godoc.org/github.com/the-control-group/gorethink-v1.15)
 [![wercker status](https://app.wercker.com/status/e315e764041af8e80f0c68280d4b4de2/s/master "wercker status")](https://app.wercker.com/project/bykey/e315e764041af8e80f0c68280d4b4de2) 
 
 [Go](http://golang.org/) driver for [RethinkDB](http://www.rethinkdb.com/) 
@@ -16,7 +16,7 @@ Current version: v0.6.1 (RethinkDB v1.16)
 ## Installation
 
 ```sh
-go get -u github.com/dancannon/gorethink
+go get -u github.com/the-control-group/gorethink-v1.15
 ```
 
 ## Connection
@@ -27,7 +27,7 @@ Setting up a basic connection with RethinkDB is simple:
 
 ```go
 import (
-    r "github.com/dancannon/gorethink"
+    r "github.com/the-control-group/gorethink-v1.15"
 )
 
 var session *r.Session
@@ -42,7 +42,7 @@ if err != nil {
 }
 
 ```
-See the [documentation](http://godoc.org/github.com/dancannon/gorethink#Connect) for a list of supported arguments to Connect().
+See the [documentation](http://godoc.org/github.com/the-control-group/gorethink-v1.15#Connect) for a list of supported arguments to Connect().
 
 ### Connection Pool
 
@@ -52,7 +52,7 @@ To configure the connection pool `MaxIdle`, `MaxOpen` and `IdleTimeout` can be s
 
 ```go
 import (
-    r "github.com/dancannon/gorethink"
+    r "github.com/the-control-group/gorethink-v1.15"
 )
 
 var session *r.Session
@@ -70,14 +70,14 @@ if err != nil {
 session.SetMaxOpenConns(5)
 ```
 
-A pre-configured [Pool](http://godoc.org/github.com/dancannon/gorethink#Pool) instance can also be passed to Connect().
+A pre-configured [Pool](http://godoc.org/github.com/the-control-group/gorethink-v1.15#Pool) instance can also be passed to Connect().
 
 
 ## Query Functions
 
 This library is based on the official drivers so the code on the [API](http://www.rethinkdb.com/api/) page should require very few changes to work.
 
-To view full documentation for the query functions check the [GoDoc](http://godoc.org/github.com/dancannon/gorethink#Term)
+To view full documentation for the query functions check the [GoDoc](http://godoc.org/github.com/the-control-group/gorethink-v1.15#Term)
 
 Slice Expr Example
 ```go
@@ -209,7 +209,7 @@ func (a A) FieldMap() map[string]string {
 
 ## Examples
 
-View other examples on the [wiki](https://github.com/dancannon/gorethink/wiki/Examples).
+View other examples on the [wiki](https://github.com/the-control-group/gorethink-v1.15/wiki/Examples).
 
 ## License
 

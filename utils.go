@@ -6,10 +6,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/dancannon/gorethink/encoding"
+	"github.com/the-control-group/gorethink-v1.15/encoding"
 
 	"code.google.com/p/goprotobuf/proto"
-	p "github.com/dancannon/gorethink/ql2"
+	p "github.com/the-control-group/gorethink-v1.15/ql2"
 )
 
 // Helper functions for constructing terms
