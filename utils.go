@@ -8,7 +8,7 @@ import (
 
 	"github.com/the-control-group/gorethink-v1.15/encoding"
 
-	"code.google.com/p/goprotobuf/proto"
+	"github.com/golang/protobuf"
 	p "github.com/the-control-group/gorethink-v1.15/ql2"
 )
 
